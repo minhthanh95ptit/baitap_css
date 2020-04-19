@@ -282,3 +282,137 @@
 .bo:hover .layer3 .chuto:after{
     right: -100px;
 }
+
+
+/* end items content */
+
+
+.block_bot{
+    width: 1281px;
+    height: 500px;
+    position: relative;
+}
+
+.me {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.me .con{
+    width: 117px;
+    height: 117px;
+    margin: 40px 20px;
+    position: relative;
+    top: 30px;
+}
+
+.me .con img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+.me .con:hover img{
+   opacity: 1;
+}
+
+hr{
+    width: 70%;
+    position: absolute;
+    left: 200px;
+    opacity: 0.5;
+}
+
+/* end logo */
+
+.contact{
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    left: 200px;
+}
+.contact .box1{
+    width: 15%;
+}
+
+.contact .box1 h1{
+    font-family: var(--font1);
+    font-size: var(--size1);
+}
+
+.contact .box2{
+    width: 24%;
+}
+.contact .box2 p{
+    font-family: var(--font2);
+    color: var(--color2);
+    font-size: var(--font2);
+}
+.contact .box3{
+    width: 20%;
+    position: absolute;
+    right: 260px;
+}
+.contact .box3 a{
+    text-decoration: none;
+    color: var(--color2);
+    font-size: var(--font1);
+}
+
+.contact .box3 a:before{
+    content: "\f178";
+    font:normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.contact .box3 a:hover:before{
+    left: 0px;
+    opacity: 1;
+}
+
+/* end contact */
+
+
+.footer{
+    width: 1281px;
+    height: 200px;
+    background-color: #111111;
+    display: flex;
+    position: relative;
+    top: 180px;
+}
+.footer .left{
+    width: 20%;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    color: white;
+    font-family: var(--font2);
+}
+.footer .right{
+    width: 20%;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    color: white;
+    display: flex;
+}
+
+.footer .right p{
+    margin-right: 5px;
+    font-family: var(--font1);
+}
+.footer .right i{
+    color:#89b32c;
+    margin-right: 5px;
+}
+
