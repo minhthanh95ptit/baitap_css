@@ -10,6 +10,11 @@
     --size3:22px;
 }
 
+.head{
+    width: 1281px;
+    height: 980px;
+}
+
 .banner_top{
     background:url(background.jpg) top center;
     background-size: cover;
@@ -107,6 +112,8 @@
 }
 .content1 .left{
     width: 35%;
+    display: flex;
+    flex-direction: column;
 }
 
 .content1 .left span{
@@ -121,9 +128,13 @@
 .content1 .right{
     width: 65%;
     font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .content1 .right p{
+    width: 60%;
     line-height: 20px;
     margin-top: 15px;
 }
