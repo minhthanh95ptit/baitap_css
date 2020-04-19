@@ -3,3 +3,6 @@ Component 1:
 Commit 1:
 - Menu top
 - Content giữa 
+
+Commit 2:
+- Component danh sách các 6 item chính

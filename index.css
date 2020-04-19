@@ -156,3 +156,118 @@
     left: 0px;
     opacity: 1;
 }
+
+/* end content mid */
+
+.block_mid{
+    width: 1281px;
+    height: 1281px;
+    background-color: black;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+}
+
+.bo{
+    width: 557px;
+    height: 373px;
+    position: relative;
+    padding: 15px;
+}
+
+.bo .layer1{
+    width: 557px;
+    height: 373px;
+}
+.bo .layer1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.bo .layer2{
+    width: 557px;
+    height: 373px;
+    opacity: 0;
+    background-color: black;
+    transition: 0.4s;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.bo:hover .layer2{
+    opacity: 0.3;
+}
+
+
+.bo .layer3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 0;
+  
+}
+
+.bo:hover .layer3{
+    opacity: 1;
+}
+
+.bo .layer3 .chunho{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    overflow: hidden;
+    font-family: 'Amiri', serif;
+}
+
+.bo .layer3 .chunho:after{
+    content: '';
+    position: absolute;
+    top:0px;
+    right: -50px;
+    background-color: white;
+    width: 78px;
+    height: 22px;
+    transition: 2.5s;
+}
+
+.bo:hover .layer3 .chunho:after{
+    right: 150px;
+}
+
+
+.bo .layer3 .chuto{
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    overflow: hidden;
+    margin-top: 1px;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bo .layer3 .chuto:after{
+    content: '';
+    position: absolute;
+   
+    right: 500px;
+    background-color: white;
+    width: 78px;
+    height: 22px;
+    transition: 1.5s;
+    
+    top: 10px;
+    
+}
+
+.bo:hover .layer3 .chuto:after{
+    right: -100px;
+}
